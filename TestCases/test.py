@@ -28,9 +28,9 @@ class TestBrowser(unittest.TestCase):
         page.driver.swipe(810, 1540, 811, 1541)
         page.password_login()
         sleep(1)
-        page.phone_num('1355862277988')
+        page.phone_num()    # 手机号
         sleep(5)
-        page.password('hl951103')
+        page.password()   # 密码
         page.user_agree()
         page.login()
         sleep(3)
